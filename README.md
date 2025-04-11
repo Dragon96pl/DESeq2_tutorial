@@ -1,4 +1,4 @@
-# Analiza Różnicowej Ekspresji Genów (DEG) i Wzbogacenia Funkcjonalnego dla Danych RNA-Seq z Eksperymentu Pasilla
+# Analiza Różnicowej Ekspresji Genów (DEG) i Adnotacja funkcjonalna dla Danych RNA-Seq z eksperymentu Pasilla
 
 Ten dokument opisuje krok po kroku proces analizy danych RNA-Seq pochodzących z eksperymentu "Pasilla" (badanie wpływu knockdownu genu pasilla na komórki Drosophila melanogaster S2-DRSC), wykorzystując pakiety R: `DESeq2` do analizy różnicowej ekspresji genów (DEG) oraz `gprofiler2` do analizy wzbogacenia funkcjonalnego (Gene Ontology i ścieżki KEGG).
 
