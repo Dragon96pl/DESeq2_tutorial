@@ -155,8 +155,8 @@ res_tab$gene_id <- rownames(res_tab)
 res_sig <- res_tab[!is.na(res_tab$padj),]
 res_sig
 # Definicja progów istotności
-log2FC_threshold <- 1.0 # Próg dla log2 krotności zmiany (np. 1.0 dla 2-krotnej zmiany)
-padj_threshold <- 0.05   # Próg dla skorygowanej wartości p (FDR)
+log2FC_threshold <- 0.1 # Próg dla log2 krotności zmiany (np. 1.0 dla 2-krotnej zmiany)
+padj_threshold <- 0.5   # Próg dla skorygowanej wartości p (FDR)
 
 # Identyfikacja genów różnicowo wyeksponowanych (DEG)
 DEG <- res_sig[abs(res_sig$log2FoldChange) > log2FC_threshold & res_sig$padj < padj_threshold, ]
